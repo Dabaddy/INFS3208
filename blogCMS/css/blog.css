@@ -1,0 +1,466 @@
+
+/*MY CODE*/
+map {
+	height: 500px;
+	width: 75%;
+	
+	
+}
+
+textarea {
+<<<<<<< HEAD
+	width: 600px;
+	height: 200px;
+=======
+	width: 800px;
+	height: 100px;
+>>>>>>> edb14c11f37c4f077c9472e8e1fdd2838c97157d
+	background-color: #fff;
+	resize: none;
+	border-radius: 3px;
+	padding-bottom:200px;
+
+}
+
+button {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 5px;
+	
+
+.comment-box{
+	width: 775px;
+	padding: 20px;
+	margin-bottom: 4px;
+	background-color: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+
+.comment-box p {
+	font-family: sterif;
+	font-size:14px;
+	line-height: #282828;
+	font-weight: 100px;
+}
+
+.edit-form{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.edit-form button{
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.edit-form button:hover{
+	opacity: 1;
+}
+
+
+}
+
+.main-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	
+
+}
+
+.main-container {
+	padding-top: 40px;
+	
+
+}
+
+.main-container h2 {
+	padding-top: 40px;
+	font-family: sterif;
+	font-size: 40px;
+	color: #111;
+	line-height: 50px;
+	text-align: center;
+	
+
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+header .nav-login {
+	float: right;
+	
+
+	
+}
+
+header .nav-login form {
+	float: left;
+	padding-top: 15px;	
+	
+
+}
+
+header .nav-login form input {
+	float: left;
+	width: 140px;
+	height: 30px;
+	padding: 0px 10px;
+	margin-right: 10px;
+	border: none;
+	background-color: #ccc;
+	font-family: sterif;
+	font-size: 14px;
+	color: #111;
+	line-height: 30px;
+	
+
+}
+
+header .nav-login form button {
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 10px;
+	border: none;
+	background-color: #f3f3f3;
+	font-family: sterif;
+	font-size: 14px;
+	color: #111;
+	cursor: pointer;
+	
+
+}
+
+header .nav-login a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: none;
+	float: left;
+	background-color: #fff;
+	font-family: sterif;
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+	cursor: pointer;
+	
+
+}
+	
+header .nav-login form button:hover {
+	background-color: #ccc;
+	
+
+}
+
+
+.header-nav {
+	width: 100px;
+	height: 60px;
+	background-color: #fff;
+	
+
+}
+
+body {
+	background-color:#F8F9F8;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+	
+
+}
+
+header nav ul {
+	float: left;
+	
+
+	
+}
+
+header nav li {
+	float: left;
+	list-style: none;
+	
+
+}
+
+header nav li a {
+	font-family: sterif;
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+	padding-right: 50px;
+	
+
+	
+}
+
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header-logo {
+    border: none;
+    color:#0C0E10;
+    text-align: left;
+    text-decoration: none;
+    font-size: 30px;
+	font-family: 'Blippo', fantasy;
+	padding-left:-700px;
+	display: inherit !important;
+	    margin-left:-110px;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+ 
+
+}
+
+
+.display-4 {
+  font-size: 2.5rem;
+
+
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+	
+  }
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+  
+
+  
+}
+
+.nav-scroller .nav {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+	
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+
+
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+ 
+
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  
+
+}
+
+.h-250 { height: 250px; 
+ }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; 
+ }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; 
+ }
+.border-bottom { border-bottom: 1px solid #e5e5e5; 
+ }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+ }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  
+
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+
+
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem; 
+	
+
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+
+
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+  
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+  
+
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+  text-align:center;
+  
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #0C0E10;
+  text-align:center;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #343434;
+  text-align: center;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+ *Comment
+ */
+.comment{
+	margin: 10px;
+}
+
+.comment img{
+	margin: 5px;
+	float: left;
+}
+
+.signup-container h2 {
+	font-family: serif;
+	font-size: 40px;
+	color: #111;
+	line-height: 50px;
+	text-align: center;
+}
+
+.signup-form {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-left:28px;
+	display: block;
+	margin: 0 auto;
+	width:25%;
+	height: 40%;
+	border: none;
+	background-color: #222;
+	font-family: serif;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup-form input{
+	height: 40px;
+	width:198px;
+	padding: 0px;
+	border: none;
+	margin-bottom:4px;
+	background-color: #fff;
+	font-family: sterif;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+	border-radius: 2px;
+	text-align:center;
+	 display: inherit !important;
+}
+
+.signup-form button{
+	margin: 10px auto;
+	margin-left:48px;
+	display: block;
+	width: 100px;
+	height: 60px;
+	border: none;
+	background-color: #B6BAB6;
+	font-family: sterif;
+	font-size: 16px;
+	color: #343434;
+	cursor: pointer;
+	border-radius: 7px;
+	 display: inherit !important;
+}
+
+.signup-form button:hover{
+	background-color: #5B5D5B;
+
+}
+
+
+
+.commentSubmit{
+ position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
+	
+	
+	
+}
