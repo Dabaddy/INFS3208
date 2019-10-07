@@ -31,15 +31,17 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-* {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
-}
 
-body, html {
+body{
+	margin: 0px;
+	padding: 0px;
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
+}
+html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+	
 }
 
 /*---------------------------------------------*/
@@ -148,6 +150,137 @@ iframe {
   line-height: 1.5;
 }
 
+/*//////////////////////////////////////////////////////////////////
+[ Home ]*/
+
+#nav {
+  overflow: hidden;
+  background-color: #00ccff;
+}
+
+#navbar a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #000000;
+	
+	top: 0px;
+	width: 0%;
+	
+	transition: all ease-in-out 150ms;
+}
+
+#navbar a:hover::before {
+	width: 100%;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 12px 40px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#navbar a:hover {
+  color: #0505050;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#navbar.container1.sticky a{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  position: relative;
+  margin-right: 55px;
+}
+
+#navbar.container1.sticky{
+	width: 100%;
+	background: #00ccff;
+	transition: .5s;
+}
+
+#navbar.container1.sticky img.logo{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 45px;
+
+}
+
+.container1{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container1.sticky{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	background: #00ccff;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+nav{
+	float: right;
+	padding-right: 10%;
+	
+}
+
+.logo {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.content{
+	padding: 16px;
+}
+	
+.sticky{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.sticky + .content{
+	padding-top: 60px;
+}
+
+
+section.sec1{
+	width: 100%;
+	height: 100vh;
+	background-image: url("images/planet.jpg");
+	background-size: cover;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
@@ -157,6 +290,8 @@ iframe {
   height: 100%;
   margin: 0 auto;
 }
+
+
 
 .container-login100 {
   width: 100%;

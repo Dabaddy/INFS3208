@@ -46,5 +46,21 @@
 </head>
 
   <body>
-
+  
+  <header>
+	<div class="container1">
+	
+	  <img class="icon" src="images/icon.png" style="width:40px;height:40px;"></img>
+		
+		<nav>
+		  <ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Account</a></li>
+		  </ul>
+		</nav>
+	  </div>
+	</header>
+		
   </body>
