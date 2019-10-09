@@ -1,0 +1,5 @@
+Host Addr: daniel_p_abad124@34.67.155.15
+Instance Password: infs
+
+public key:
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAqdsBLWY5nvQiJ76HRP56y6myOnZxI/O2fx1pYR6eSteEhhCeqd/Xvdwo/aDXfmKCeGz1svHDbNHOPo+F4dxB6o7ueRBQBqdPZS5ss3djA6fm2WkUxV2VNATHXT58W7y4fuAZ5xI+/gHaWYZWPBGgeNmbOfFr052a7umP3uNyDSjGa8H9ozayQeUXBXU+LOMEPvAxtGrut84u8Xw8gbjbSdLNljfkCE8s08I+Tf/mRMNrjoUN0q161xBpEyeWksJi8DF12Y/L3uLaCjbZn5YBMP44wVHWAQDlIk4wUvB3Kk1sXOHyzWmRYuH+saiAvqfkOUj7HReKF8nIVnC3hPyBoQ== rsa-key-20191008

@@ -435,6 +435,16 @@ div.transbox p {
 }
 
 
+.order100-form-title {
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+
+  display: block;
+}
+
 /*------------------------------------------------------------------
 [ Input ]*/
 
