@@ -32,9 +32,6 @@ if(isset($_POST['submit1'])) {
 				} elseif ($hashedPwdCheck == true) {
 					//Login the user here
 					$_SESSION['user_id'] = $row['user_id'];
-					$_SESSION['user_firstname'] = $row['user_firstname'];
-					$_SESSION['user_lastname'] = $row['user_firstname'];
-					$_SESSION['email'] = $row['user_email'];
 					$_SESSION['username'] = $row['username'];
 					header("Location: ../index.php?Login=Success");
 					exit();
