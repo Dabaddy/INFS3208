@@ -6,7 +6,6 @@ CREATE TABLE `user` (
   `user_id` int(11) NOT NULL,
   `username` varchar(30) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `user_firstname` varchar(256) NOT NULL,
-  `user_lastname` varchar(256) NOT NULL,
+  `firstname` varchar(256) NOT NULL,
   `user_email` varchar(256) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+)
